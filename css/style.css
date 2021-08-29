@@ -383,7 +383,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .checkbox-icon{
         width: 16px;
         height: 15px;
-        border: 2px solid black;
+        border: 2px solid var(--primary-text-color);
         border-radius: 3px;
         display: inline-block;
         margin-right: 10px;
@@ -397,12 +397,19 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        background-origin: border-box;
       
    }
+   .checkbox-policy{
+    color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+   }
    .conditions-policy{
         
         font-size: 14px;
         line-height: 24px;
         color: var(--accent-color);
         letter-spacing: 0.03em;
+        margin-left: 4px;
         text-decoration-line: underline;
    }
    .button-submit{
